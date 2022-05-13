@@ -1,0 +1,4 @@
+
+*.gql
+magnify-backend/src/schema.gql
+magnify-backend/.env

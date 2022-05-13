@@ -1,0 +1,22 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon mailServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "ical-generator": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.2",
+    "nodemailer": "^6.7.3"
+  }
+}
