@@ -1,8 +1,4 @@
-# project-projectname-c01
-
----
-
-## Minimum Viable Product for UImpactify
+# Minimum Viable Product for UImpactify
 
 ---
 
@@ -14,6 +10,12 @@
 1. Jay Zhao
 1. Kyle
 1. Siddhant Singh
+
+---
+
+### Tech Stack
+
+The frontend is GatsbyJS. The backend is ExpressJS, uses PassportJS for user authentication and uses Mongoose as ORM for the underlying MongoDB database.
 
 ---
 
