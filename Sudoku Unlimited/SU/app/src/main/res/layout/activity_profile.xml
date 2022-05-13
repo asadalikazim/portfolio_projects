@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".features.profile.profile.ProfileFrag">
+
+
+    <TextView
+        android:id="@+id/profileFragHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="36dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/pa_profile_frag_label_your_profile"
+        android:textSize="36sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/usernameHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingTop="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pa_profile_frag_label_username" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="36dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                tools:text="@string/pa_profile_frag_label_username" />
+
+            <TextView
+                android:id="@+id/passwordHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingTop="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pa_profile_frag_label_password" />
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="36dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                tools:text="@string/pa_profile_frag_label_password" />
+
+            <TextView
+                android:id="@+id/userScoreHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingTop="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pa_profile_frag_label_user_score" />
+
+            <TextView
+                android:id="@+id/userScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="36dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                tools:text="@string/pa_profile_frag_label_user_score" />
+
+            <TextView
+                android:id="@+id/puzzlesSolvedHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingTop="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pa_profile_frag_label_puzzles_solved" />
+
+            <TextView
+                android:id="@+id/puzzlesSolved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="36dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                tools:text="@string/pa_profile_frag_label_puzzles_solved" />
+
+            <Button
+                android:id="@+id/syncProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="32dp"
+                android:text="@string/pa_profile_frag_label_button_sync_profile" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

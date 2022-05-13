@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawerDarkMode"
+            android:title="Dark Mode"
+            app:actionLayout="@layout/layout_dark_mode_switch"
+            />
+        <item
+            android:id="@+id/drawerGuides"
+            android:title="@string/ma_drawer_guides" />
+        <item
+            android:id="@+id/drawerRankings"
+            android:title="@string/ma_drawer_rankings" />
+        <item
+            android:id="@+id/drawerProfile"
+            android:title="@string/ma_drawer_profile" />
+        <item
+            android:id="@+id/drawerSignOut"
+            android:title="@string/ma_drawer_sign_out" />
+    </group>
+</menu>

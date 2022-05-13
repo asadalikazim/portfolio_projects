@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "657198441686",
+    "firebase_url": "https://sudoku-unlimited.firebaseio.com",
+    "project_id": "sudoku-unlimited",
+    "storage_bucket": "sudoku-unlimited.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657198441686:android:43fc8ee4502cff86799577",
+        "android_client_info": {
+          "package_name": "com.kgc.su"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657198441686-ka8t8ovji5ofol6147eh2bqdtup6onse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRqX5WCHTaLdkfhotzOPPRNDl9NwKqlUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657198441686-ka8t8ovji5ofol6147eh2bqdtup6onse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

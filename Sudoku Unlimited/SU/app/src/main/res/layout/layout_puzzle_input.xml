@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+
+    <Button
+        android:id="@+id/clear_cell"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" "
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_1"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_2"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_3"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_4"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_5"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_6"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_7"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_8"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/i9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_input_9"
+        tools:ignore="ButtonStyle" />
+</LinearLayout>

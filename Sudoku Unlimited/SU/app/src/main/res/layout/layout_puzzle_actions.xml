@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+
+    <Button
+        android:id="@+id/puzzle_hint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_hint"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/puzzle_reset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_dialogue_suggestion_button_reset"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/puzzle_check"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_check"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/puzzle_solve"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ppa_sudoku_frag_label_solution"
+        tools:ignore="ButtonStyle" />
+</LinearLayout>

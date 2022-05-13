@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".features.puzzleFinish.sudoku.SudokuFrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sudokuHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="24dp"
+                android:textSize="36sp"
+                tools:text="@string/pfa_solution_frag_label_top_sentence" />
+
+            <GridLayout
+                android:id="@+id/puzzle_board"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="9"
+                android:padding="8dp"
+                android:rowCount="9">
+
+            </GridLayout>
+
+            <LinearLayout
+                android:id="@+id/scoreCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:id="@+id/userScoreHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="Score" />
+
+                    <TextView
+                        android:id="@+id/bonusDiffHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="Difficulty Bonus" />
+
+                    <TextView
+                        android:id="@+id/bonusHintHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="Hints Bonus" />
+
+                    <TextView
+                        android:id="@+id/gameScoreHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="18sp"
+                        android:text="Total Score" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:id="@+id/userScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        tools:text="500" />
+
+                    <TextView
+                        android:id="@+id/bonusDiff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        tools:text="250" />
+
+                    <TextView
+                        android:id="@+id/bonusHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        tools:text="200" />
+
+                    <TextView
+                        android:id="@+id/gameScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="18sp"
+                        tools:text="950" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sudokuFooter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="24dp"
+                android:textSize="24sp"
+                tools:text="@string/pfa_solution_frag_label_bottom_sentence" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="36dp"
+        android:layout_weight="0.2">
+
+        <Button
+            android:id="@+id/playAgain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pfa_solution_frag_label_play_again"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pfa_solution_frag_label_done"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

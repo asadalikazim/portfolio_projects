@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Sudoku Unlimited</string>
+    <string name="ma_home_frag_label_app_name" translatable="false">Sudoku Unlimited</string>
+    <string name="pa_profile_frag_label_your_profile">Your Profile</string>
+    <string name="ppa_splash_frag_label_wait_message">Please wait while your puzzle is generated…</string>
+    <string name="pfa_splash_frag_label_wait_message_solution">Please wait while the solution is generated</string>
+    <string name="pfa_splash_frag_label_wait_message_solved">Please wait while the solution is processed</string>
+
+    <string name="title_activity_main" translatable="false">SU</string>
+    <string name="title_activity_guide" translatable="false">guide</string>
+    <string name="title_activity_profile" translatable="false">profile</string>
+    <string name="title_activity_puzzleSelect" translatable="false">puzzleSelect</string>
+    <string name="title_activity_puzzlePlay" translatable="false">puzzlePlay</string>
+    <string name="title_activity_puzzleFinish" translatable="false">puzzleFinish</string>
+    <string name="title_activity_ranking" translatable="false">ranking</string>
+    <string name="title_activity_registration" translatable="false">registration</string>
+    <string name="drawericon">DrawerIcon</string>
+</resources>

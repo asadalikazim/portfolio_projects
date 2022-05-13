@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nav_puzzle_play"
+    app:startDestination="@id/splashFrag">
+
+    <fragment
+        android:id="@+id/splashFrag"
+        android:name="com.kgc.su.features.puzzlePlay.splash.SplashFrag"
+        android:label="frag_ppa_splash"
+        tools:layout="@layout/frag_ppa_splash" >
+        <action
+            android:id="@+id/action_splashFrag_to_sudokuFrag"
+            app:destination="@id/sudokuFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/sudokuFrag"
+        android:name="com.kgc.su.features.puzzlePlay.sudoku.SudokuFrag"
+        android:label="frag_ppa_sudoku"
+        tools:layout="@layout/frag_ppa_sudoku" />
+</navigation>

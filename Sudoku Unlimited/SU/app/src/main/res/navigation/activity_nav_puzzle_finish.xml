@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nav_puzzle_finish"
+    app:startDestination="@id/finishFrag">
+
+    <fragment
+        android:id="@+id/finishFrag"
+        android:name="com.kgc.su.features.puzzleFinish.sudoku.SudokuFrag"
+        android:label="frag_pfa_sudoku"
+        tools:layout="@layout/frag_pfa_sudoku" />
+</navigation>

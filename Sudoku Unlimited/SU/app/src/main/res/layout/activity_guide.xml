@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".features.guide.GuideActivity">
+
+    <TextView
+        android:id="@+id/guidesHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="24dp"
+        android:textSize="36sp"
+        android:text="@string/ga_frag_label_guides" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="24dp"
+                android:textSize="24sp"
+                android:text="@string/ga_guide_header_classic" />
+
+            <GridLayout
+                android:id="@+id/guideBoardClassic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="9"
+                android:padding="8dp"
+                android:rowCount="9">
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="12sp"
+                android:text="@string/ga_guide_details_classic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="24dp"
+                android:textSize="24sp"
+                android:text="@string/ga_guide_header_x" />
+
+            <GridLayout
+                android:id="@+id/guideBoardX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="9"
+                android:padding="8dp"
+                android:rowCount="9">
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="12sp"
+                android:text="@string/ga_guide_details_x" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="24dp"
+                android:textSize="24sp"
+                android:text="@string/ga_guide_header_dots" />
+
+            <GridLayout
+                android:id="@+id/guideBoardDots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="9"
+                android:padding="8dp"
+                android:rowCount="9">
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="12sp"
+                android:text="@string/ga_guide_details_dots" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="24dp"
+                android:textSize="24sp"
+                android:text="@string/ga_guide_header_knights_move" />
+
+            <GridLayout
+                android:id="@+id/guideBoardKnightsMove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="9"
+                android:padding="8dp"
+                android:rowCount="9">
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="12sp"
+                android:text="@string/ga_guide_details_knights_move" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="24dp"
+                android:textSize="24sp"
+                android:text="@string/ga_guide_header_scoring" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="@string/score_card_user_score" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="@string/score_card_bonus_diff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="@string/score_card_bonus_hint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="18sp"
+                        android:text="@string/score_card_game_score" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="@string/ga_score_card_user_score" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="@string/ga_score_card_bonus_diff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:text="@string/ga_score_card_bonus_hint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="12dp"
+                        android:textSize="18sp"
+                        android:text="@string/ga_score_card_game_score" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="36dp"
+                android:textSize="12sp"
+                android:text="@string/ga_guide_details_scoring" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

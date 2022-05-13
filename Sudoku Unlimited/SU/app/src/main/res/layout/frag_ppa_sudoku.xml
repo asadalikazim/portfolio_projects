@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".features.puzzlePlay.sudoku.SudokuFrag">
+
+    <TextView
+        android:id="@+id/sudokuHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="24dp"
+        android:text="@string/psa_difficulty_select_frag_label_hard"
+        android:textSize="36sp"
+        tools:text="Hard" />
+
+    <GridLayout
+        android:id="@+id/puzzle_board"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="9"
+        android:rowCount="9"
+        android:padding="8dp"
+        >
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/puzzle_input"
+            layout="@layout/layout_puzzle_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+
+        <include
+            android:id="@+id/puzzle_actions"
+            layout="@layout/layout_puzzle_actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</LinearLayout>
