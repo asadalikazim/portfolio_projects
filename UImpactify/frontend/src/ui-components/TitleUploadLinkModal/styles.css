@@ -1,0 +1,22 @@
+.component-title-upload-modal{
+  box-shadow: 0px 8px 16px rgba(120, 98, 188, 0.2);
+  border-radius: 35px;
+  background: white;
+  max-width: 40rem;
+  min-height: 10rem;
+  padding: 2rem;
+}
+
+.component-title-upload-submit-button{
+  background-color: white;
+  color: #A78EC3;
+  border: white;
+  border-radius: "0.5rem",
+}
+
+.component-title-upload-submit-button:hover{
+  background-color: white;
+  border: white;
+  color: #645575;
+  border-radius: "0.5rem",
+}

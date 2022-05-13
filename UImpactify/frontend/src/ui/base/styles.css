@@ -1,0 +1,13 @@
+.NvgBar{
+    min-height: 30vh;
+}
+
+.NvgBar_link{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}

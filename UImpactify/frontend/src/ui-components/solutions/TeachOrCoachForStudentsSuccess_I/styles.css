@@ -1,0 +1,44 @@
+
+.TeachOrCoach-grid{
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+
+}
+
+.TeachOrCoach-border-control{
+  min-height: 100vh;
+  border-radius:  0 0  17.5rem 0;
+  background-color: white;
+}
+
+.TeachOrCoach-outer-border-control{
+  min-height: 100vh;
+  background-color: #E2F4F4;
+}
+
+.Michel{
+  width: 25rem;
+  margin: 2rem;
+}
+
+.icons{
+  margin: 5rem;
+}
+
+.btn{
+  color:  #A78EC3;
+  background-color:#A78EC3;
+}
+
+.Develop_student{
+  margin: 5rem;
+}
+
+.Develop-content{
+  margin-top: 2rem;
+}
+
+.Develop_icons{
+  margin-top: 10rem;
+}

@@ -1,0 +1,14 @@
+.GETSTARTED-I-outer-border-control{
+    min-height: 30vh;
+    background-color: #E2F4F4;
+}
+
+.GETSTARTED-I-border-control{
+    min-height: 30vh;
+    border-radius: 17.5rem 0 0 0;
+    background-color: white;
+}
+
+.GetStartedButton_I{
+    margin-top: 4rem;
+}

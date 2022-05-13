@@ -1,0 +1,26 @@
+.each-category-main-list-component{
+  background: #FFFFFF;
+
+  /* White Base */
+  border: 1px solid #FFFFFF;
+
+  /* Shadow Dark · 8dp */
+  box-shadow: 0px 8px 16px rgba(120, 98, 188, 0.2);
+  border-radius: 35px;
+
+  min-height: 9.5rem;
+} 
+
+.grid-cat-list-card-each{
+  background: #FFFFFF;
+  outline-color: #A78EC3;
+
+  /* White Base */
+  border: 1px solid #FFFFFF;
+
+  /* Shadow Dark · 8dp */
+  box-shadow: 0px 8px 16px rgba(120, 98, 188, 0.2);
+  border-radius: 25px;
+
+  margin: 0.5rem;
+} 

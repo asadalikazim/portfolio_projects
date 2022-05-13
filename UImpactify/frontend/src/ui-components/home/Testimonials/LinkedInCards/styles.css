@@ -1,0 +1,20 @@
+.LIC-box{
+  box-shadow: 0 0.25rem 0.25rem rgba(51, 51, 51, 0.04), 0 0.25rem 1rem rgba(51, 51, 51, 0.08);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  width: 15rem;
+  padding: 1rem;
+}
+
+.LIC-instructor-avatar{
+  margin-right: 0.5rem;
+}
+
+.LIC-student-profiles{
+  margin-top: 0.5rem;
+}
+
+.LIC-student-avatar{
+  margin-right: 0.5rem;
+}
+

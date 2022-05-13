@@ -1,0 +1,39 @@
+
+.SolutionsComponent-grid{
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+
+}
+
+.SolutionsComponent-border-control{
+  min-height: 100vh;
+  border-radius:  0 0  17.5rem 0;
+  background-color: white;
+}
+
+.SolutionsComponent-outer-border-control-what-is{
+  min-height: 100vh;
+  background-color: #E2F4F4;
+}
+
+.Michel{
+  padding: 2rem;
+}
+
+.btn{
+  color:  #A78EC3;
+  background-color:#A78EC3;
+}
+
+.button2{
+  margin-top: 4rem;
+}
+
+.content{
+  margin-top: 1rem;
+}
+
+.solutions-text-grid{
+  margin-left: 4rem;
+}

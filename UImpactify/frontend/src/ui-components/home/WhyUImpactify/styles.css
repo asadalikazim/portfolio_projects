@@ -1,0 +1,18 @@
+.why-uimpactify-grid{
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.border-control-why-uimpactify{
+  min-height: 100vh;
+  border-radius: 17.5rem 0;
+  background-color: #E2F4F4;
+}
+
+.why-uimpactify-grid-points{
+  padding: 0.5rem;
+}
+
+.why-uimpactify-grid-button{
+  padding: 0.5rem;
+}

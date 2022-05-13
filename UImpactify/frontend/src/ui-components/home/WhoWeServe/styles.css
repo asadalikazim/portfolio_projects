@@ -1,0 +1,22 @@
+
+.who-we-serve-grid{
+  min-height: 50vh;
+  width: 100vw;
+  padding: 2rem;
+
+}
+
+.border-control-who-we{
+  min-height: 50vh;
+  border-radius:  17.5rem 0 0 0;
+  background-color: white;
+}
+
+.outer-border-control-who-we{
+  min-height: 50vh;
+  background-color: #E2F4F4;
+}
+
+.sponsor-img{
+  width: 50rem;
+}

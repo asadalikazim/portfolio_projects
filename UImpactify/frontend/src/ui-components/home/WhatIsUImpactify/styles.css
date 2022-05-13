@@ -1,0 +1,23 @@
+
+.what-is-uimpactify-grid{
+  min-height: 70vh;
+  width: 100vw;
+  padding: 2rem;
+
+}
+
+.border-control-home-what-is{
+  min-height: 70vh;
+  border-radius:  0 0  17.5rem 0;
+  background-color: white;
+}
+
+.outer-border-control-home-what-is{
+  min-height: 70vh;
+  background-color: #E2F4F4;
+}
+
+.imac-img{
+  width: 25rem;
+  margin: 2rem;
+}

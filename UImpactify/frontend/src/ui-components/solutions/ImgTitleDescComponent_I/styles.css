@@ -1,0 +1,21 @@
+.ImgTitleDescComponent_I-img{
+  max-width: 20rem;
+  height: 10rem;
+  padding: 0.2rem;
+  margin: 2rem;
+}
+
+.ImgTitleDescComponent_I-title{
+  padding: 0.2rem;
+  width: 20rem;
+}
+
+.ImgTitleDescComponent_I-desc{
+  max-width: 12rem;
+  padding: 0.2rem;
+}
+
+.ImgTitleDescComponent_I-box{
+  max-width: 20rem;
+  margin: 2rem;
+}

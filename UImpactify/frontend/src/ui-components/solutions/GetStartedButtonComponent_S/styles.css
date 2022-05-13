@@ -1,0 +1,11 @@
+
+
+.GETSTARTED-S-border-control{
+    min-height: 30vh;
+    border-radius: 17.5rem 0 0 0;
+    background-color: white;
+}
+
+.GetStartedButton_S{
+    margin-top: 4rem;
+}

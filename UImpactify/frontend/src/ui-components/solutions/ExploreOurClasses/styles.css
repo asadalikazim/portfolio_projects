@@ -1,0 +1,24 @@
+.ExploreOurClasses-outer-border-control{
+    min-height: 50vh;
+    background-color: #E2F4F4;
+}
+
+.ExploreOurClasses-border-control{
+    min-height: 50vh;
+    border-radius: 17.5rem 0 0 0;
+    background-color: white;
+}
+
+.title{
+    margin-top: 3rem;
+}
+
+.classTypes{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -3rem;
+}
+
+.Btn{
+    margin-bottom: 1rem;
+}

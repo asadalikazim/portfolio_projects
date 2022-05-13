@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": [
+        "react", "react-hooks"
+    ],
+    "parser": "babel-eslint",
+    "ignorePatterns": ["node_modules/"],
+    "rules": {
+        "react/prop-types": "off",
+        "react/no-unescaped-entities": "off",
+        "consistent-return": [1, { "treatUndefinedAsUnspecified": true }],
+        "prefer-destructuring": [1, { "object": true, "array": false }],
+        "no-underscore-dangle": [1, { "allow": ["_id"] }],
+        "import/prefer-default-export": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "prettier/prettier": ["error", {            
+           "endOfLine":"auto"        
+         }]
+    },
+    "settings": {
+        "react": {
+            "version": "latest" // "detect" automatically picks the version you have installed.
+        }
+    }
+}
